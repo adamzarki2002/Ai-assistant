@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "home": "Home",
+    "search": "Literature Search",
+    "results": "Results",
+    "assistant": "Assistant",
+    "collection": "My Collection",
+    "categories": "Categories"
+  },
+  "categories": {
+    "example": "Mining Category {num}"
+  },
+  "navbar": {
+    "search_placeholder": "Search for literature...",
+    "search": "Search",
+    "cancel": "Cancel"
+  },
+  "chat": {
+    "placeholder": "Ask your question..."
+  },
+  "footer": {
+    "copyright": "ML Literature Research System",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "about": "About"
+  },
+  "home": {
+    "title": "ML-Assisted Literature Research",
+    "subtitle": "Advanced literature research system for mining engineering with machine learning capabilities",
+    "search_placeholder": "Search for papers, authors, topics...",
+    "search_button": "Search",
+    "features": {
+      "title": "Features",
+      "search": {
+        "title": "Advanced Search",
+        "description": "Powerful search capabilities with filters for precise literature discovery."
+      },
+      "ml": {
+        "title": "ML Recommendations",
+        "description": "Get intelligent recommendations based on your research interests and history."
+      },
+      "organize": {
+        "title": "Collection Management",
+        "description": "Save, organize, and annotate literature for your research projects."
+      }
+    }
+  },
+  "dashboard": {
+    "recent_searches": "Recent Searches",
+    "view_all": "View All",
+    "results_found": "{count} results",
+    "no_recent_searches": "No recent searches",
+    "recommendations": "Recommended For You",
+    "more_like_these": "See More",
+    "no_recommendations": "No recommendations available",
+    "relevance": "{score}% relevance"
+  },
+  "search": {
+    "title": "Literature Search",
+    "placeholder": "Enter keywords, title, authors...",
+    "search_button": "Search",
+    "searching": "Searching...",
+    "show_advanced": "Advanced Search",
+    "hide_advanced": "Hide Advanced",
+    "suggested_queries": "Suggested Searches",
+    "recent_searches": "Recent Searches",
+    "trending_topics": "Trending Topics",
+    "filters": {
+      "year_range": "Publication Years",
+      "authors": "Authors",
+      "authors_placeholder": "Enter author names",
+      "journals": "Journals",
+      "domains": "Research Domains",
+      "full_text": "Search in full text",
+      "reset": "Reset Filters"
+    }
+  },
+"results": {
+  "title": "Search Results for '{query}'",
+  "showing_results": "Showing {start}-{end} of {total} results",
+  "sort_by": "Sort by:",
+  "sort_options": {
+    "relevance": "Relevance",
+    "newest": "Newest First",
+    "oldest": "Oldest First",
+    "citations": "Most Cited"
+  },
+  "open_article": "Open Article",
+  "view_document": "View Document",
+  "save": "Save",
+  "cite": "Cite",
+  "show_abstract": "Show Abstract",
+  "hide_abstract": "Hide Abstract",
+  "relevance": "{score}%",
+  "show_visualizations": "Show Visualizations",
+  "hide_visualizations": "Hide Visualizations"
+},
+  "document": {
+    "save": "Save to Collection",
+    "cite": "Cite This Paper",
+    "download": "Download PDF",
+    "abstract": "Abstract",
+    "content": "Content",
+    "metrics": "Research Metrics",
+    "relevance": "Relevance",
+    "method_quality": "Methodology",
+    "novelty": "Novelty",
+    "impact_factor": "Impact Factor",
+    "references": "References",
+    "figures": "Figures",
+    "tables": "Tables",
+    "related": "Related Documents",
+    "relevance_score": "{score}% relevant"
+  },
+  "visualizations": {
+    "title": "Results Analysis",
+    "timeline_description": "Distribution of publications over time",
+    "topics_description": "Distribution of results by research topic",
+    "relationships_description": "Network of related concepts and papers",
+    "network_visualization": "Interactive network visualization would appear here",
+    "publications_per_year": "Publications per Year",
+    "distribution_by_topic": "Distribution by Topic",
+    "tabs": {
+      "timeline": "Timeline",
+      "topics": "Topics",
+      "relationships": "Relationships"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased;
+    @apply text-neutral-800 dark:text-neutral-100;
+    @apply bg-neutral-50 dark:bg-neutral-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium;
+    @apply leading-tight;
+  }
+
+  h1 {
+    @apply text-4xl;
+    @apply mb-6;
+  }
+
+  h2 {
+    @apply text-3xl;
+    @apply mb-4;
+  }
+
+  h3 {
+    @apply text-2xl;
+    @apply mb-3;
+  }
+
+  h4 {
+    @apply text-xl;
+    @apply mb-2;
+  }
+
+  p {
+    @apply mb-4;
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md;
+    @apply transition-all duration-200;
+    @apply font-medium;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 text-white;
+    @apply hover:bg-primary-700;
+    @apply focus:ring-primary-500;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary-500 text-white;
+    @apply hover:bg-secondary-600;
+    @apply focus:ring-secondary-400;
+  }
+
+  .btn-outline {
+    @apply border border-neutral-300 dark:border-neutral-700;
+    @apply hover:bg-neutral-100 dark:hover:bg-neutral-800;
+    @apply focus:ring-neutral-300 dark:focus:ring-neutral-600;
+  }
+
+  .card {
+    @apply bg-white dark:bg-neutral-800;
+    @apply rounded-lg;
+    @apply shadow-sm;
+    @apply p-4;
+    @apply border border-neutral-200 dark:border-neutral-700;
+  }
+
+  .input {
+    @apply w-full;
+    @apply px-3 py-2;
+    @apply rounded-md;
+    @apply border border-neutral-300 dark:border-neutral-700;
+    @apply bg-white dark:bg-neutral-800;
+    @apply text-neutral-900 dark:text-neutral-100;
+    @apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent;
+    @apply transition-all duration-200;
+  }
+
+  .fade-in {
+    @apply animate-fade-in;
+  }
+
+  .slide-in {
+    @apply animate-slide-in;
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "search": "Literatursuche",
+    "results": "Ergebnisse",
+    "collection": "Meine Sammlung",
+    "categories": "Kategorien",
+    "assistant": "Assistent"
+  },
+  "categories": {
+    "example": "Bergbau-Kategorie {num}"
+  },
+  "navbar": {
+    "search_placeholder": "Suche nach Literatur...",
+    "search": "Suchen",
+    "cancel": "Abbrechen"
+  },
+  "footer": {
+    "copyright": "ML Literaturrecherchesystem",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutz",
+    "about": "Über uns"
+  },
+  "chat": {
+    "placeholder": "Stellen Sie Ihre Frage..."
+  },
+  "home": {
+    "title": "ML-gestützte Literaturrecherche",
+    "subtitle": "Fortschrittliches Literaturrecherchesystem für Bergbaukunde mit Machine-Learning-Funktionen",
+    "search_placeholder": "Suche nach Veröffentlichungen, Autoren, Themen...",
+    "search_button": "Suchen",
+    "features": {
+      "title": "Funktionen",
+      "search": {
+        "title": "Erweiterte Suche",
+        "description": "Leistungsstarke Suchfunktionen mit Filtern für präzise Literaturrecherche."
+      },
+      "ml": {
+        "title": "ML-Empfehlungen",
+        "description": "Erhalten Sie intelligente Empfehlungen basierend auf Ihren Forschungsinteressen und Ihrer Historie."
+      },
+      "organize": {
+        "title": "Sammlungsverwaltung",
+        "description": "Speichern, organisieren und annotieren Sie Literatur für Ihre Forschungsprojekte."
+      }
+    }
+  },
+  "dashboard": {
+    "recent_searches": "Letzte Suchen",
+    "view_all": "Alle anzeigen",
+    "results_found": "{count} Ergebnisse",
+    "no_recent_searches": "Keine kürzlichen Suchen",
+    "recommendations": "Empfehlungen für Sie",
+    "more_like_these": "Mehr anzeigen",
+    "no_recommendations": "Keine Empfehlungen verfügbar",
+    "relevance": "{score}% Relevanz"
+  },
+  "search": {
+    "title": "Literatursuche",
+    "placeholder": "Stichwörter, Titel, Autoren eingeben...",
+    "search_button": "Suchen",
+    "searching": "Suche läuft...",
+    "show_advanced": "Erweiterte Suche",
+    "hide_advanced": "Einfache Suche",
+    "suggested_queries": "Suchvorschläge",
+    "recent_searches": "Letzte Suchen",
+    "trending_topics": "Aktuelle Themen",
+    "filters": {
+      "year_range": "Erscheinungsjahre",
+      "authors": "Autoren",
+      "authors_placeholder": "Autorennamen eingeben",
+      "journals": "Fachzeitschriften",
+      "domains": "Forschungsbereiche",
+      "full_text": "Im Volltext suchen",
+      "reset": "Filter zurücksetzen"
+    }
+  },
+  "results": {
+  "title": "Suchergebnisse für '{query}'",
+  "showing_results": "Zeige {start}-{end} von {total} Ergebnissen",
+  "sort_by": "Sortieren nach:",
+  "sort_options": {
+    "relevance": "Relevanz",
+    "newest": "Neueste zuerst",
+    "oldest": "Älteste zuerst",
+    "citations": "Meistzitiert"
+  },
+  "open_article": "Artikel öffnen",
+  "view_document": "Dokument anzeigen",
+  "save": "Speichern",
+  "cite": "Zitieren",
+  "show_abstract": "Zusammenfassung anzeigen",
+  "hide_abstract": "Zusammenfassung ausblenden",
+  "relevance": "{score}%",
+  "show_visualizations": "Visualisierungen anzeigen",
+  "hide_visualizations": "Visualisierungen ausblenden"
+},
+
+  "document": {
+     "save": "Dokument speichern",
+    "cite": "Zitat kopieren",
+    "download": "PDF herunterladen",
+    "metrics": "Metriken",
+    "relevance": "Relevanz",
+    "method_quality": "Methodenqualität",
+    "novelty": "Neuheit",
+    "impact_factor": "Impact-Faktor",
+    "abstract": "Zusammenfassung",
+    "content": "Inhalt",
+    "references": "Referenzen",
+    "figures": "Abbildungen",
+    "tables": "Tabellen",
+    "view_on_publisher": "Auf der Verlagsseite ansehen",
+    "related": "Verwandte Dokumente",
+    "relevance_score": "Relevanz: {score}%"
+  },
+  "visualizations": {
+    "title": "Ergebnisanalyse",
+    "timeline_description": "Verteilung der Veröffentlichungen über die Zeit",
+    "topics_description": "Verteilung der Ergebnisse nach Forschungsthemen",
+    "relationships_description": "Netzwerk verwandter Konzepte und Veröffentlichungen",
+    "network_visualization": "Interaktive Netzwerkvisualisierung würde hier erscheinen",
+    "publications_per_year": "Veröffentlichungen pro Jahr",
+    "distribution_by_topic": "Verteilung nach Thema",
+    "tabs": {
+      "timeline": "Zeitachse",
+      "topics": "Themen",
+      "relationships": "Beziehungen"
+    }
+  }
+}

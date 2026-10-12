@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+httpx
+requests
+pydantic
+python-dotenv
+motor  # async MongoDB client
+asreview
+beautifulsoup4
+numpy
+pandas
+scikit-learn
+sentence-transformers
+torch
